@@ -11,7 +11,7 @@ public class Unordered {
 		}
 	}
 
-	//  head and tail of the singly linked list
+	// head and tail of the singly linked list
 	private Node head = null;
 	private Node tail = null;
 
@@ -73,7 +73,7 @@ public class Unordered {
 		System.out.println("Before adding Words in LinkedList :");
 		list.displayList();
 
-		String array[] = { "'Hyderabad'", "'Mumbai'", "'Pune'", "'Andra'"};
+		String array[] = { "'Hyderabad'", "'Mumbai'", "'Pune'", "'Andra'" };
 		for (int i = 0; i < array.length; i++) {
 			if (list.findWord(array[i])) {
 				continue;
