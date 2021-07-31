@@ -81,7 +81,6 @@ public class Ordered {
 
 	public static void main(String[] args) {
 		Ordered List = new Ordered();
-
 		List.addToEnd(12);
 		List.addToEnd(20);
 		List.addToEnd(56);
