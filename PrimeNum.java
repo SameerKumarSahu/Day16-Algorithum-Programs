@@ -3,7 +3,8 @@ package com.ArithmaticPrograms;
 public class PrimeNum {
 
 	public static void main(String[] args) {
-		int i, j, k;
+		System.out.println("Prime numbers range of 0 - 1000 Numbers");
+		int i, j, k;	// declaring variables
 		for (i = 2; i < 1000; i++) {
 			k = 0;
 			for (j = 2; j < i; j++) {
@@ -13,7 +14,7 @@ public class PrimeNum {
 				}
 			}
 			if (k == 0) {
-				System.out.print(i + ",");
+				System.out.println(i);
 			}
 		}
 
