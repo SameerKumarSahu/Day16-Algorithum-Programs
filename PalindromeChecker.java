@@ -16,7 +16,7 @@ public class PalindromeChecker {
 			queue.add(str.charAt(i));
 		}
 
-		String reverseString = "";
+		String reverseString = "";//Create a empty string
 
 		while (!queue.isEmpty()) {
 			reverseString = reverseString + queue.remove();
