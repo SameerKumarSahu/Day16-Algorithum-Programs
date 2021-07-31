@@ -11,7 +11,7 @@ public class Unordered {
 		}
 	}
 
-	// head and tail of the singly linked list
+	// head and tail of the singly linked list 
 	private Node head = null;
 	private Node tail = null;
 
